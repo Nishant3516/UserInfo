@@ -1,16 +1,33 @@
-# userassignment
+# User App
 
-A new Flutter project.
+A simple Flutter application that fetches user data from an API and allows the user to sort the list alphabetically. Clicking on a user displays the user details on the next page.
+
+## Features
+
+- Fetches user data from an API
+- Allows the user to sort the list alphabetically
+- Displays user details on the next page when a user is clicked
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+git clone https://github.com/your-username/user-app.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Install dependencies:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter pub get
+
+3. Run the app:
+
+flutter run
+
+
+## API
+
+The app fetches user data from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
+
+## Packages Used
+
+- [http](https://pub.dev/packages/http) for making HTTP requests
+- [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) for generating app icons
